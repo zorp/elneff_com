@@ -1,6 +1,6 @@
 AuthType Basic
 AuthName "Password Protected Area - Type elneff as user and password to get access."
-AuthUserFile .htpasswd
+AuthUserFile /srv/www/elneff_com/public_html/.htpasswd
 Require valid-user
 
 ############################################
