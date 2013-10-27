@@ -108,3 +108,5 @@ skin/install/
 var/
 tools/
 .sass-cache/
+.htaccess
+.htpasswd
