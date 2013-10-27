@@ -1,0 +1,18 @@
+/**
+ * Layout
+ *
+ * @author zorp
+ */
+
+.col2-right-layout {
+  .col-main {
+    @include zen-grid-item(8, 1);
+  }
+  .col-right {
+    @include zen-grid-item(4, 1, right);
+  }
+}
+
+.footer-container {
+  @include zen-clear(both);
+}

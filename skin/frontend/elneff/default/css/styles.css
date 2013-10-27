@@ -1,0 +1,313 @@
+/* line 17, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/**
+ * Variables
+ *
+ * @author zorp
+ */
+/* Spacing variables
+   ========================================================================== */
+/* Zen Grid variables
+   ========================================================================== */
+/* Breakpoints
+   ========================================================================== */
+/* Standard color definitions
+   ========================================================================== */
+/* Typography
+   ========================================================================== */
+/* Font variables
+   ========================================================================== */
+/* Font sizes
+   ========================================================================== */
+/* Layout
+   ========================================================================== */
+/* Links
+   ========================================================================== */
+/**
+ * Base
+ *
+ * @author zorp
+ */
+/* line 8, ../sass/framework/_base.scss */
+body {
+  background-color: white;
+  color: #242424;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* line 22, ../sass/framework/_base.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: "Source Sans Pro Semi Bold", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
+  font-weight: normal;
+  /* This fixes huge spaces when a heading wraps onto two lines */
+  line-height: 1.2;
+  /* Voodoo to enable ligatures and kerning */
+  text-rendering: optimizeLegibility;
+}
+/* line 34, ../sass/framework/_base.scss */
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link {
+  color: #242424;
+  text-decoration: none;
+}
+/* line 39, ../sass/framework/_base.scss */
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+  color: black;
+}
+/* line 43, ../sass/framework/_base.scss */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: black;
+}
+/* line 47, ../sass/framework/_base.scss */
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:focus {
+  color: black;
+}
+/* line 51, ../sass/framework/_base.scss */
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+  background-color: transparent;
+  color: black;
+}
+
+/* line 59, ../sass/framework/_base.scss */
+h1 {
+  font-size: 300%;
+}
+
+/* line 63, ../sass/framework/_base.scss */
+h2 {
+  font-size: 220%;
+}
+
+/* line 67, ../sass/framework/_base.scss */
+h3 {
+  font-size: 170%;
+}
+
+/* line 71, ../sass/framework/_base.scss */
+h4 {
+  font-size: 160%;
+}
+
+/* line 75, ../sass/framework/_base.scss */
+h5 {
+  font-size: 110%;
+}
+
+/* line 80, ../sass/framework/_base.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 85, ../sass/framework/_base.scss */
+em {
+  font-style: italic;
+}
+/* line 88, ../sass/framework/_base.scss */
+em strong {
+  font-weight: bold;
+}
+
+/* Links
+   ========================================================================== */
+/* line 98, ../sass/framework/_base.scss */
+a:link {
+  color: #0099cc;
+  text-decoration: none;
+}
+/* line 103, ../sass/framework/_base.scss */
+a:visited {
+  color: #0086b3;
+  text-decoration: none;
+}
+/* line 108, ../sass/framework/_base.scss */
+a:hover {
+  color: #007aa3;
+  text-decoration: underline;
+}
+/* line 113, ../sass/framework/_base.scss */
+a:focus {
+  color: #007aa3;
+}
+
+/* Paragraph
+   ========================================================================== */
+/* line 122, ../sass/framework/_base.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Image
+   ========================================================================== */
+/* line 132, ../sass/framework/_base.scss */
+img {
+  display: inline;
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/* Lists
+   ========================================================================== */
+/* line 144, ../sass/framework/_base.scss */
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+/* line 148, ../sass/framework/_base.scss */
+ul li {
+  list-style: none;
+}
+
+/* Selection color
+   ========================================================================== */
+/* line 158, ../sass/framework/_base.scss */
+::-moz-selection,
+::selection {
+  background-color: #ffff99;
+  color: #333;
+  text-shadow: none;
+}
+
+/**
+ * Layout
+ *
+ * @author zorp
+ */
+/* line 8, ../sass/layout/_layout.scss */
+.col2-right-layout .col-main {
+  float: left;
+  width: 66.66667%;
+  margin-left: 0%;
+  margin-right: -66.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+/* line 11, ../sass/layout/_layout.scss */
+.col2-right-layout .col-right {
+  float: right;
+  width: 33.33333%;
+  margin-right: 0%;
+  margin-left: -33.33333%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 16, ../sass/layout/_layout.scss */
+.footer-container {
+  clear: both;
+}
