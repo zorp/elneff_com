@@ -271,6 +271,25 @@ ul li {
  * @author zorp
  */
 /* line 8, ../sass/layout/_layout.scss */
+.col1-layout .col-main {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+/* line 14, ../sass/layout/_layout.scss */
 .col2-right-layout .col-main {
   float: left;
   width: 66.66667%;
@@ -288,7 +307,7 @@ ul li {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 11, ../sass/layout/_layout.scss */
+/* line 17, ../sass/layout/_layout.scss */
 .col2-right-layout .col-right {
   float: right;
   width: 33.33333%;
@@ -307,7 +326,7 @@ ul li {
   _overflow-y: visible;
 }
 
-/* line 16, ../sass/layout/_layout.scss */
+/* line 22, ../sass/layout/_layout.scss */
 .footer-container {
   clear: both;
 }

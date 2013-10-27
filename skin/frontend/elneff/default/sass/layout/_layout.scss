@@ -4,6 +4,12 @@
  * @author zorp
  */
 
+.col1-layout {
+  .col-main {
+    @include zen-grid-item(12, 1);
+  }
+}
+
 .col2-right-layout {
   .col-main {
     @include zen-grid-item(8, 1);
