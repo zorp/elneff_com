@@ -87,14 +87,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Links
    ========================================================================== */
 /**
+ * Typography
+ *
+ * @author zorp
+ */
+/**
  * Base
  *
  * @author zorp
  */
 /* line 8, ../sass/framework/_base.scss */
 body {
-  background-color: white;
-  color: #242424;
+  background-color: #fffaf4;
+  color: black;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 15px;
   line-height: 24px;
@@ -109,7 +114,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 15px;
-  font-family: "Source Sans Pro Semi Bold", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
   font-weight: normal;
   /* This fixes huge spaces when a heading wraps onto two lines */
   line-height: 1.2;
@@ -123,7 +128,7 @@ h3 a:link,
 h4 a:link,
 h5 a:link,
 h6 a:link {
-  color: #242424;
+  color: black;
   text-decoration: none;
 }
 /* line 39, ../sass/framework/_base.scss */
@@ -327,6 +332,126 @@ ul li {
 }
 
 /* line 22, ../sass/layout/_layout.scss */
+.page-wrapper {
+  width: 100%;
+  background-color: #fffaf4;
+  margin-top: 400px;
+  overflow: hidden;
+}
+/* line 28, ../sass/layout/_layout.scss */
+.page-wrapper .page-wrapper-inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+/* line 36, ../sass/layout/_layout.scss */
+.promotion {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../images/promotion.jpg);
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 400px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: -9999;
+}
+
+/* line 50, ../sass/layout/_layout.scss */
+.navigation {
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  font-family: "Old Standard TT", serif;
+  background-color: #fffaf4;
+  position: relative;
+  margin: 0 auto;
+  height: 100px;
+  clear: both;
+  z-index: 9999 !important;
+}
+/* line 61, ../sass/layout/_layout.scss */
+.navigation .logo {
+  float: left;
+  margin-top: 20px;
+}
+/* line 65, ../sass/layout/_layout.scss */
+.navigation .logo.active {
+  border-bottom: 6px solid black;
+  padding-bottom: 16px;
+}
+/* line 71, ../sass/layout/_layout.scss */
+.navigation .main-menu {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 160%;
+  font-weight: lighter;
+}
+/* line 78, ../sass/layout/_layout.scss */
+.navigation .main-menu .menu-item {
+  display: inline;
+  margin-left: 25px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #828282;
+}
+/* line 85, ../sass/layout/_layout.scss */
+.navigation .main-menu .menu-item.first {
+  margin-left: 0;
+}
+/* line 89, ../sass/layout/_layout.scss */
+.navigation .main-menu .menu-item.active {
+  border-bottom: 6px solid black;
+  padding-bottom: 10px;
+  color: black;
+}
+
+/* line 98, ../sass/layout/_layout.scss */
+.primary-content {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  background-color: #fffaf4;
+}
+
+/* line 105, ../sass/layout/_layout.scss */
 .footer-container {
   clear: both;
 }
+
+/**
+ * Promotion
+ *
+ * @author zorp
+ */

@@ -19,6 +19,7 @@ $small-spacing:                   5px;
 
 $zen-column-count: 12;
 $zen-gutter-width: 20px;
+$zen-grid-width: $breakpoint-large !default;
 $box-sizing-polyfill-path: "/skin/frontend/elneff/default/js/boxsizing.htc";
 
 
@@ -37,7 +38,7 @@ $breakpoint-x-large:              1210px;
 
 $white:                          #fff !default;
 $black:                          #000 !default;
-$gray:                           #d5d5d5 !default;
+$gray:                           #828282 !default;
 $gray-light:                     lighten($gray, 10%) !default;
 $gray-lighter:                   lighten($gray, 15%) !default;
 $gray-dark:                      darken($gray, 10%) !default;
@@ -48,11 +49,14 @@ $green:                          #59a214;
 $blue:                           #0099cc;
 $yellow:                         #f0cb28;
 
+$primary-bg-color:               #fffaf4;
+
 
 /* Typography
    ========================================================================== */
 $font-body:                       "Source Sans Pro", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
-$font-color-primary:              #242424;
+$font-navigation:                 "Old Standard TT", serif;
+$font-color-primary:              #000;
 
 
 /* Font variables

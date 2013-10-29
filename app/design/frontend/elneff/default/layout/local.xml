@@ -14,6 +14,8 @@
 
     <!-- Stylesheets and JavaScript -->
     <reference name="head">
+      <action method="addJs"><script>js/jquery-2.0.3.min.js</script></action>
+      <action method="addJs"><script>js/jquery.sticky.js</script></action>
       <action method="addCss"><stylesheet>font/source-sans/stylesheet.css</stylesheet></action>
       <action method="addCss"><stylesheet>css/font-awesome.min.css</stylesheet></action>
     </reference>
