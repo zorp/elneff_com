@@ -55,7 +55,7 @@ $primary-bg-color:               #fffaf4;
 /* Typography
    ========================================================================== */
 $font-body:                       "Source Sans Pro", "Helvetica Neue", Helvetica, "Lucida Sans Unicode", Arial, sans-serif;
-$font-navigation:                 "Old Standard TT", serif;
+$font-secondary:                  "Old Standard TT", serif;
 $font-color-primary:              #000;
 
 
@@ -84,6 +84,7 @@ $font-size-tiny:                  75%;
 /* Layout
    ========================================================================== */
 
+$base-site-width:                 960px;
 $base-border-radius:              4px;
 $border-dottet-large:             url('/images/dot-large.png') 0 bottom repeat-x;
 $border-dottet-small:             url('/images/dot-small.png') 0 bottom repeat-x;

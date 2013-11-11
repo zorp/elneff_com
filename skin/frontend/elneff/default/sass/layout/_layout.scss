@@ -28,7 +28,7 @@
   .page-wrapper-inner {
     margin-left: auto;
     margin-right: auto;
-    max-width: 960px;
+    max-width: $base-site-width;
   }
 }
 
@@ -45,12 +45,18 @@
   left: 0;
   margin: 0 auto;
   z-index: -9999;
+
+  .promotion-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $base-site-width;
+  }
 }
 
 .navigation {
   @include zen-grid-item(12, 1);
 
-  font-family: $font-navigation;
+  font-family: $font-secondary;
   background-color: $primary-bg-color;
   position: relative;
   margin: 0 auto;

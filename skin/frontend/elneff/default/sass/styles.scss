@@ -19,8 +19,9 @@
 @import "configuration/_variables";
 
 // Include framework
-@import "framework/_typography";
 @import "framework/_base";
+@import "framework/_typography";
+@import "framework/_buttons";
 
 // Include layout
 @import "layout/_layout";
