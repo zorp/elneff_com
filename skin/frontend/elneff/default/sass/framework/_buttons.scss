@@ -120,6 +120,13 @@ $button-danger-color:             #fff;
   @include create-gradient-button($button-danger-color, $button-danger-bg, darken($button-danger-bg, 15%));
 }
 
+.button-circle,
+%button-circle {
+  @include circle(40px, $white);
+  border: 1px solid $gray;
+  padding: 0;
+  font-size: 85%;
+}
 
 /* Don't use native buttons on iOS */
 input[type=submit].button,

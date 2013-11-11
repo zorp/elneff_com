@@ -31,6 +31,7 @@
       }
 
       &:hover,
+      &:active,
       &.active {
         border-bottom: 6px solid $black;
         padding-bottom: 10px;
@@ -39,7 +40,10 @@
 
       a {
         &:link,
-        &:visited,
+        &:visited {
+          text-decoration: none;
+          color: $gray;
+        }
         &:hover,
         &:active {
           text-decoration: none;
@@ -48,4 +52,48 @@
       }
     }
   }
+
+  .function-menu {
+    @extend .main-menu;
+
+    float: right;
+    margin-top: 20px;
+
+    .menu-item {
+      margin-left: 10px;
+      padding: 0;
+
+      &:hover,
+      &:active,
+      &.active {
+        border: none;
+        padding-bottom: 0;
+      }
+    }
+  }
 }
+
+.button-search {
+  @extend %button-circle;
+
+  &:before {
+    color: $gray;
+  }
+}
+
+.button-favorites {
+  @extend %button-circle;
+
+  &:before {
+    color: $gray;
+  }
+}
+
+.button-account {
+  @extend %button-circle;
+
+  &:before {
+    color: $gray;
+  }
+}
+

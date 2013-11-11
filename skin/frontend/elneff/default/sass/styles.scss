@@ -19,6 +19,7 @@
 @import "configuration/_variables";
 
 // Include framework
+@import "framework/_mixins";
 @import "framework/_base";
 @import "framework/_typography";
 @import "framework/_buttons";

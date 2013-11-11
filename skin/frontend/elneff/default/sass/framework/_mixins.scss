@@ -1,0 +1,15 @@
+/**
+ * Mixins
+ *
+ * @author zorp
+ */
+
+@mixin circle($width, $color) {
+  width: $width;
+  height: $width;
+  background: $color;
+  @include border-radius($width/2);
+  /*-webkit-border-radius: $width/2;
+     -moz-border-radius: $width/2;
+          border-radius: $width/2;*/
+}
