@@ -564,7 +564,7 @@ button.button {
   max-width: 960px;
 }
 
-/* line 56, ../sass/layout/_layout.scss */
+/* line 57, ../sass/layout/_layout.scss */
 .navigation {
   float: left;
   width: 100%;
@@ -581,52 +581,14 @@ button.button {
   _display: inline;
   _overflow: hidden;
   _overflow-y: visible;
-  font-family: "Old Standard TT", serif;
-  background-color: #fffaf4;
   position: relative;
   margin: 0 auto;
   height: 100px;
   clear: both;
   z-index: 9999 !important;
 }
-/* line 67, ../sass/layout/_layout.scss */
-.navigation .logo {
-  float: left;
-  margin-top: 20px;
-}
-/* line 71, ../sass/layout/_layout.scss */
-.navigation .logo.active {
-  border-bottom: 6px solid black;
-  padding-bottom: 16px;
-}
-/* line 77, ../sass/layout/_layout.scss */
-.navigation .main-menu {
-  float: left;
-  margin-left: 50px;
-  margin-top: 30px;
-  font-size: 160%;
-  font-weight: lighter;
-}
-/* line 84, ../sass/layout/_layout.scss */
-.navigation .main-menu .menu-item {
-  display: inline;
-  margin-left: 25px;
-  padding-left: 4px;
-  padding-right: 4px;
-  color: #828282;
-}
-/* line 91, ../sass/layout/_layout.scss */
-.navigation .main-menu .menu-item.first {
-  margin-left: 0;
-}
-/* line 95, ../sass/layout/_layout.scss */
-.navigation .main-menu .menu-item.active {
-  border-bottom: 6px solid black;
-  padding-bottom: 10px;
-  color: black;
-}
 
-/* line 104, ../sass/layout/_layout.scss */
+/* line 67, ../sass/layout/_layout.scss */
 .primary-content {
   clear: both;
   float: left;
@@ -647,9 +609,55 @@ button.button {
   background-color: #fffaf4;
 }
 
-/* line 111, ../sass/layout/_layout.scss */
+/* line 74, ../sass/layout/_layout.scss */
 .footer-container {
   clear: both;
+}
+
+/**
+ * Navigation
+ *
+ * @author zorp
+ */
+/* line 7, ../sass/module/_navigation.scss */
+.navigation {
+  font-family: "Old Standard TT", serif;
+  background-color: #fffaf4;
+}
+/* line 11, ../sass/module/_navigation.scss */
+.navigation .logo {
+  margin-right: 35px;
+}
+/* line 15, ../sass/module/_navigation.scss */
+.navigation .main-menu {
+  float: left;
+  margin-top: 30px;
+  padding: 0;
+  font-size: 160%;
+  font-weight: lighter;
+}
+/* line 22, ../sass/module/_navigation.scss */
+.navigation .main-menu .menu-item {
+  display: inline;
+  margin-left: 15px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #828282;
+}
+/* line 29, ../sass/module/_navigation.scss */
+.navigation .main-menu .menu-item.first {
+  margin-left: 0;
+}
+/* line 34, ../sass/module/_navigation.scss */
+.navigation .main-menu .menu-item:hover, .navigation .main-menu .menu-item.active {
+  border-bottom: 6px solid black;
+  padding-bottom: 10px;
+  color: black;
+}
+/* line 44, ../sass/module/_navigation.scss */
+.navigation .main-menu .menu-item a:link, .navigation .main-menu .menu-item a:visited, .navigation .main-menu .menu-item a:hover, .navigation .main-menu .menu-item a:active {
+  text-decoration: none;
+  color: black;
 }
 
 /**
