@@ -19,18 +19,8 @@ $small-spacing:                   5px;
 
 $zen-column-count: 12;
 $zen-gutter-width: 20px;
-$zen-grid-width: $breakpoint-large !default;
+$zen-grid-width: 1210px !default;
 $box-sizing-polyfill-path: "/skin/frontend/elneff/default/js/boxsizing.htc";
-
-
-/* Breakpoints
-   ========================================================================== */
-
-$breakpoint-low:                  580px;
-$breakpoint-small:                480px;
-$breakpoint-medium:               768px;
-$breakpoint-large:                940px;
-$breakpoint-x-large:              1210px;
 
 
 /* Standard color definitions

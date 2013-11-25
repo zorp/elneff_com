@@ -7,7 +7,8 @@
 
 
 .promotion-block {
-  @include zen-grid-item(4, 1);
+
+  @include zen-grid-item(12, 1);
 
   .promotion-block-inner {
     margin-top: 25px;
@@ -34,6 +35,18 @@
     font-size: $font-size-large;
     border-top: 1px solid $white;
     border-bottom: 1px solid $white;
+  }
+
+  @include breakpoint(2) {
+    @include zen-grid-item(8, 1);
+  }
+
+  @include breakpoint(3) {
+    @include zen-grid-item(6, 1);
+  }
+
+  @include breakpoint(4) {
+    @include zen-grid-item(4, 1);
   }
   
 }

@@ -72,8 +72,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
    ========================================================================== */
 /* Zen Grid variables
    ========================================================================== */
-/* Breakpoints
-   ========================================================================== */
 /* Standard color definitions
    ========================================================================== */
 /* Typography
@@ -91,6 +89,66 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  *
  * @author zorp
  */
+/**
+ * Breakpoints
+ *
+ * Contains breakpoints and media queries
+ *
+ * @author zorp
+ */
+/* Breakpoints
+   ========================================================================== */
+/* Media queries
+   ========================================================================== */
+/* Debugging
+   ========================================================================== */
+/* line 46, ../sass/framework/_mediaqueries.scss */
+.breakpoint-1, .breakpoint-2, .breakpoint-3, .breakpoint-4 {
+  display: none;
+  /* This is debugging so ignoring the one-direction margin rule */
+  margin: 1em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+  border-radius: 2em;
+}
+
+@media only screen and (min-width: 300px) {
+  /* line 59, ../sass/framework/_mediaqueries.scss */
+  .breakpoint-1 {
+    display: block;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  /* line 68, ../sass/framework/_mediaqueries.scss */
+  .breakpoint-2 {
+    display: block;
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  /* line 77, ../sass/framework/_mediaqueries.scss */
+  .breakpoint-3 {
+    display: block;
+    width: 620px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  /* line 86, ../sass/framework/_mediaqueries.scss */
+  .breakpoint-4 {
+    display: block;
+    width: 850px;
+  }
+}
+
 /**
  * Base
  *
@@ -729,9 +787,9 @@ button.button {
 /* line 9, ../sass/module/_promotion.scss */
 .promotion-block {
   float: left;
-  width: 33.33333%;
+  width: 100%;
   margin-left: 0%;
-  margin-right: -33.33333%;
+  margin-right: -100%;
   padding-left: 10px;
   padding-right: 10px;
   -moz-box-sizing: border-box;
@@ -744,7 +802,7 @@ button.button {
   _overflow: hidden;
   _overflow-y: visible;
 }
-/* line 12, ../sass/module/_promotion.scss */
+/* line 13, ../sass/module/_promotion.scss */
 .promotion-block .promotion-block-inner {
   margin-top: 25px;
   padding: 20px 40px 20px 40px;
@@ -754,15 +812,15 @@ button.button {
   text-align: center;
   font-family: "Old Standard TT", serif;
 }
-/* line 22, ../sass/module/_promotion.scss */
+/* line 23, ../sass/module/_promotion.scss */
 .promotion-block .promotion-logo {
   margin-bottom: 10px;
 }
-/* line 26, ../sass/module/_promotion.scss */
+/* line 27, ../sass/module/_promotion.scss */
 .promotion-block .promotion-heading {
   font-family: "Old Standard TT", serif;
 }
-/* line 30, ../sass/module/_promotion.scss */
+/* line 31, ../sass/module/_promotion.scss */
 .promotion-block .promotion-content {
   margin-bottom: 15px;
   padding-top: 10px;
@@ -770,4 +828,64 @@ button.button {
   font-size: 130%;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+@media only screen and (min-width: 450px) {
+  /* line 9, ../sass/module/_promotion.scss */
+  .promotion-block {
+    float: left;
+    width: 66.66667%;
+    margin-left: 0%;
+    margin-right: -66.66667%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+    _display: inline;
+    _overflow: hidden;
+    _overflow-y: visible;
+  }
+}
+@media only screen and (min-width: 620px) {
+  /* line 9, ../sass/module/_promotion.scss */
+  .promotion-block {
+    float: left;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: -50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+    _display: inline;
+    _overflow: hidden;
+    _overflow-y: visible;
+  }
+}
+@media only screen and (min-width: 850px) {
+  /* line 9, ../sass/module/_promotion.scss */
+  .promotion-block {
+    float: left;
+    width: 33.33333%;
+    margin-left: 0%;
+    margin-right: -33.33333%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    *behavior: url("/skin/frontend/elneff/default/js/boxsizing.htc");
+    _display: inline;
+    _overflow: hidden;
+    _overflow-y: visible;
+  }
 }
